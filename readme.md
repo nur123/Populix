@@ -2,8 +2,8 @@ ini jawaban soal Make all possible test case for this page
 
 Scenario: Login in Google
 
-Given user is on homepage
-When user click Google Login button
+>Given user is on homepage
+>When user click Google Login button
 When user input Google email
 When user click Berikutnya
 When user input Password gmail

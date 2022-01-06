@@ -4,61 +4,61 @@ Scenario: Login in Google
 
 Given user is on homepage<br/>
 When user click Google Login button<br/>
-When user input Google email
-When user click Berikutnya
-When user input Password gmail
-When user click Berikutnya
-Then user is on pre-screening page
+When user input Google email<br/>
+When user click Berikutnya<br/>
+When user input Password gmail<br/>
+When user click Berikutnya<br/>
+Then user is on pre-screening page<br/>
 
 
 Scenario: Login Facebook
 
-Given user is on homepage
-When user click Facebook Login button
-When user input email facebook
-When user input password facebook
-When user click Log in button
-Then user is on authorization page
-When user click Lanjutkan
-Then user is on pre-screening page
+Given user is on homepage<br/>
+When user click Facebook Login button<br/>
+When user input email facebook<br/>
+When user input password facebook<br/>
+When user click Log in button<br/>
+Then user is on authorization page<br/>
+When user click Lanjutkan<br/>
+Then user is on pre-screening page<br/>
 
 
 Scenario: Daftar
 
-Given user is on homepage
-When user click link Daftar
-When user input Nama Depan
-When user input Nama Belakang
-When user input Alamat Email
-When user input Kata Sandi
-When user click Daftar button
-Then user is in Confirm page
-When user input OTP
-When user click Submit button
-Then user is on pre-screening page
+Given user is on homepage<br/>
+When user click link Daftar<br/>
+When user input Nama Depan<br/>
+When user input Nama Belakang<br/>
+When user input Alamat Email<br/>
+When user input Kata Sandi<br/>
+When user click Daftar button<br/>
+Then user is in Confirm page<br/>
+When user input OTP<br/>
+When user click Submit button<br/>
+Then user is on pre-screening page<br/>
 
 
 Scenario: Login Manual
 
-Given user is on homepage
-When user input registered Alamat email
-When user input Password
-When user input Masuk button
-Then user is on pre-screening page
+Given user is on homepage<br/>
+When user input registered Alamat email<br/>
+When user input Password<br/>
+When user input Masuk button<br/>
+Then user is on pre-screening page<br/>
 
 
 Scenario: Lupa Kata Sandi
 
-Given user is on homepage
-When user click link Lupa Kata Sandi?
-When user input Alamat email
-When user click Kirim Ulang Kata Sandi
-Then user is on change-password page
-When user input Kode verifikasi
-When user input Password baru
-When user input Konfirmasi Password baru
-When user click Kirim Kata Sandi button
-Then user success change password and return to homepage 
+Given user is on homepage<br/>
+When user click link Lupa Kata Sandi?<br/>
+When user input Alamat email<br/>
+When user click Kirim Ulang Kata Sandi<br/>
+Then user is on change-password page<br/>
+When user input Kode verifikasi<br/>
+When user input Password baru<br/>
+When user input Konfirmasi Password baru<br/>
+When user click Kirim Kata Sandi button<br/>
+Then user success change password and return to homepage<br/> 
 
 Dari script manual ini yang bisa di buatkan automationnya adalah
 login dengan facebook dan login manual 
